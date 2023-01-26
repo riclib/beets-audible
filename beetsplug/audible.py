@@ -392,7 +392,7 @@ class Audible(BeetsPlugin):
         year = int(release_date[:4])
         month = int(release_date[5:7])
         day = int(release_date[8:10])
-        data_url = f"https://api.audnex.us/books/{asin}"
+        data_url = f"https://nexus.liberato.cc/books/{asin}"
 
         self.cover_art_urls[asin] = cover_url
 
