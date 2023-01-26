@@ -8,7 +8,7 @@ from urllib.error import HTTPError
 from .book import Book, BookChapters
 
 AUDIBLE_ENDPOINT = "https://api.audible.com/1.0/catalog/products"
-AUDNEX_ENDPOINT = "https://api.audnex.us"
+AUDNEX_ENDPOINT = "https://nexus.liberato.cc"
 GOODREADS_ENDPOINT = "https://www.goodreads.com/search/index.xml"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/"
